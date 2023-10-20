@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body {
+            background-image: linear-gradient(to top, #39615ea6, #7fe0d87e);
+            background-attachment: fixed;
+        }
+        main {
+            background-color: white; 
+            margin: auto;
+            width: 600px;
+            height: 400px;
+            border-radius: 10px;
+        }
+        h1 {
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            color: rgb(255, 255, 0);
+            text-shadow: 1px 1px 0.5px rgb(126, 126, 0);
+        }
+        a {color: red;
+        text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+            background-color: rgba(255, 205, 205, 0.719);
+        }
+        .pc::before {content:' → ';}
+        .pc::after {content:' ← ';}
+    </style>
+</head>
+<body>
+   
+    <main>
+        <h1>Links Personalizado</h1>
+        <ul>
+            <li><a target="_blank" href="https://github.com/gustavoguanabara/html-css/tree/master/aulas-pdf">Repositorio GitHub</a></li>
+            <li><a target="_blank" href="https://www.youtube.com/" class="pc">Canal Curso em Video Youtube</a></li>
+            <li><a target="_blank" href="https://www.cursoemvideo.com/" class="pc">Site Curso em video ofc</a></li>
+        </ul>
+    </main>
+</body>
+</html>

@@ -1,0 +1,40 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'Medalu';
+    src: url(fonts/MELADU\ ROSE.otf) format('opentype')
+}
+main {
+    padding: 10px;
+    border-radius: 10px;
+    width: 630px;
+    margin: auto;
+    background-color: white;
+    box-shadow: 3px 3px 2px #a37083;
+}
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-image: linear-gradient(to top, #ffafcc, #ffc8dd);
+    background-attachment: fixed;
+    font-weight: normal
+}
+h1 {
+    /*shorthand font
+    -font-style --> font-weight --> font-size --> font-family
+    
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+    */
+
+    text-shadow: 1px 1px 1px #4e4353;
+    text-align: center;
+    font-family: 'Medalu', Arial, sans-serif;
+    font-size: 36px;
+    font-weight: normal;
+    color: #ad97b9;
+}
+p {
+    font-size: 17px;
+
+}

@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgb(165, 226, 175);
+    font-family: Arial, Helvetica, sans-serif;
+}
+#principal{
+    text-align: center;
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    width: 650px;
+    margin: auto;
+    border-radius: 10px;
+}
+h1 {
+    color: green;
+}
+h2 {
+    color: rgb(35, 88, 35);
+}
+main {
+    width: 600px;
+    background-color: white;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+.inter{
+    color: rgb(133, 131, 58);
+}
+.avancado {
+    color: rgb(133, 58, 58);;
+}
+.coc {
+    background-color: rgba(218, 184, 99, 0.418);
+}
+span {
+    font-weight: bolder;
+    background-color: rgba(230, 224, 52, 0.199);
+}

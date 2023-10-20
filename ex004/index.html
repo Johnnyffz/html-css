@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://cdn1.iconfinder.com/data/icons/black-round-web-icons/100/round-web-icons-black-40-512.png" type="image/x-icon">
+    <title>Formatações HTML</title>
+</head>
+<body>
+     <h1>Outras formatações</h1>
+     <h2>Tag Code / Pre</h2>
+     <p>
+         Para inserir um codigo em sua criação em html, voce pode utilizar a tag <ins>code</ins> para deixá-lo em uma formatação mais apresentável, ex: <code> num = int(input('Digite um número: '))
+         num1 = int(input('Digite outro número: '))
+         s = num+num1
+         print('A soma entre {} e {} é igual à {}'.format(num,num1,s))
+         </code> <br>    
+     </p>
+     <p>Percebeu algo de errado nessa formatação? SIM! A formatação em si não está errada, mas sim a forma como o codigo está escrito. Um código sem quebra de linha fica muito bagunçado e feio, para resolver isso basta dar um simples comando <ins>&lt;pre&gt;</ins>, ex: 
+     <pre>
+num = int(input('Digite um número: '))
+num1 = int(input('Digite outro número: '))
+s = num + num1
+print('A soma entre {} e {} é igual à {}'.format(num,num1,s))
+     </pre></p>
+     <h2>Citações Simples</h2>
+     <p>Para fazer uma referencia a uma fala ou uma citação de alguem, utiliza-se a tag <ins>&lt;q&gt;</ins>, ex: <q>Creio no riso e nas lagrimas como antídotos contra o ódio e o terror</q> - Charlie Chaplin</p>
+     <h2>Citações completas</h2>
+     <p>Para fazer citações completas, basta utilizar a tag <ins>&lt;blockquote&gt;</ins>, como por ex:</p>
+        <p> Segundo Dalai Lama:
+        <blockquote cite="https://blog.malupires.com.br/frases-dalai-lama-50-opcoes-para-refletir-sobre-a-vida/">Se você quer transformar o mundo, experimente primeiro promover o seu aperfeiçoamento pessoal e realizar inovações no seu próprio interior. Estas atitudes se refletirão em mudanças positivas no seu ambiente familiar. Deste ponto em diante, as mudanças se expandirão em proporções cada vez maiores. Tudo o que fazemos produz efeito, causa algum impacto.</blockquote>
+        <h2>Abreviações</h2>
+        Para abreviações como <abbr title="Hyper Text Mark Language"><mark style="background-color: chartreuse;">HTML</mark></abbr> ou <abbr title="Cascading Style Sheets"><mark style="background-color: chartreuse;">CSS</mark></abbr>, Utiliza-se a tag <ins>&lt;abbr&gt;</ins>.
+     </p>
+</body>
+</html>
