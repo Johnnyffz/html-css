@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela de dados</title>
+    <link rel="shortcut icon" href="https://pngimg.com/uploads/wikipedia/wikipedia_PNG10.png" type="image/x-icon">
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        hr {
+            width: 500px;
+            margin-left: 0px;
+        }
+        table {
+            width: 500px;
+            border-collapse: collapse;
+        }
+        th {
+            border: 1px solid black;
+            background-color: rgb(236, 236, 236);
+            padding: 10px;
+        }
+        td {
+            border: 1px solid black;
+            text-align: center;
+            background-color: #f8f9fa;
+            padding: 10px;
+        }
+        .est {
+            text-align: left;
+        }
+        img {
+            width: 20px;
+            border: 0.5px solid rgb(175, 175, 175);
+        }
+        a {
+            text-decoration: none;
+            color: #3476af;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        a:visited {
+            color: #795cb2;
+        }
+    </style>
+</head>
+<body>
+    <H1>Criando tabela</H1>
+    <hr>
+    <p>A seguir, exemplo de uma tabela de dados</p>
+    <table>
+        <thead>
+            <tr>
+                <th>Posição</th>
+                <th>Unidade Federativa</th>
+                <th>População</th>
+                <th>% Populacional</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>01</td>
+                <td class="est"> 
+                    <span>
+                        <img src="https://cdn10.bigcommerce.com/s-hhbbk/products/209/images/36088/BRAZ0124__61416.1580475660.1280.1280.png?c=2" alt="Img São Paulo">
+                     </span>
+                <a target="_blank" href="https://pt.wikipedia.org/wiki/S%C3%A3o_Paulo_(estado)">São Paulo</a>
+                </td>
+                <td>45 Milhões</td>
+                <td>21%</td>
+            </tr>
+            <tr>
+                <td>02</td>
+                <td class="est">
+                    <span>
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Bandeira_de_Minas_Gerais.svg/20px-Bandeira_de_Minas_Gerais.svg.png" alt="Minas img">
+                    </span>
+                <a target="_blank" href="https://pt.wikipedia.org/wiki/Minas_Gerais">Minas Gerais</a>
+                </td>
+                <td>21 Milhões</td>
+                <td>10,8%</td>
+            </tr>
+            <tr>
+                <td>03</td>
+                <td class="est">
+                <span>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Bandeira_do_estado_do_Rio_de_Janeiro.svg/20px-Bandeira_do_estado_do_Rio_de_Janeiro.svg.png" alt="">
+                </span>
+                <a target="_blank" href="https://pt.wikipedia.org/wiki/Rio_de_Janeiro_(estado)">Rio de Janeiro</a>
+                </td>
+                <td>17 Milhões</td>
+                <td>8,3%</td>
+            </tr>
+            <tr>
+                <td>04</td>
+                <td class="est">
+                <span>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Bandeira_da_Bahia.svg/20px-Bandeira_da_Bahia.svg.png" alt="">
+                </span>
+                    <a target="_blank" href="https://pt.wikipedia.org/wiki/Bahia">Bahia</a>
+                </td>
+                <td>14 Milhões</td>
+                <td>7,2%</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
