@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Só o Básico</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table {
+            width: 500px;
+            border-collapse: collapse;
+        }
+        th {
+            border: 1px solid;
+            background-color: aquamarine;
+
+        }
+        td {
+            border: 1px solid;
+            padding: 5px;
+        }
+        tbody > tr:nth-child(2n) {
+            background-color: rgb(238, 238, 238);
+        }
+        </style>
+</head>
+<body>
+    <table>
+        <caption>Estrutura e funcionamento de tabela</caption>
+        <thead>
+            <tr>
+                <th scope="col">
+                    classificação
+                </th>
+                <th scope="col" style="width: 180px;">
+                    exemplo 01
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>01 Brasil</td>
+                <td class="id1"> Hexacampeão</td>
+            </tr>
+            <tr>
+                <td>02 Alemanha</td>
+                <td class="id1">Bicampeão</td>
+            </tr>
+            <tr>
+                <td>03 Noruega</td>
+                <td class="id1">1 estrela</td>
+            </tr>
+            <tr>
+                <td>04 Espanha</td>
+                <td class="id1">É poha nenhuma</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
