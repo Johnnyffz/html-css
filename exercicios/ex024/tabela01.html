@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>colgroup</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table {
+            width: 400px;
+            border-collapse: collapse;
+        }
+        td {
+            border: 1px solid black;
+            padding: 10px;
+        }
+        th {
+            border: 1px solid black;
+        }
+        .nm {
+            background-color: rgb(233, 233, 233);
+        }
+        .prof {
+            background-color: rgb(226, 226, 226);
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <colgroup>
+            <col class="gen">
+            <col class="nm">
+            <col class="id">
+            <col class="prof">
+        </colgroup>
+        <caption>qualquer coisa</caption>
+        <thead>
+            <tr>
+                <th>genero</th>
+                <th>nome</th>
+                <th>idade</th>
+                <th>profissão</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="3">Feminino</td>
+                <td>Jéssica</td>
+                <td>23</td>
+                <td>Reporter</td>
+            </tr>
+            <tr>
+                <td>Julia</td>
+                <td>45</td>
+                <td>Cozinheira</td>
+            </tr>
+            <tr>
+                <td>Fátima</td>
+                <td>33</td>
+                <td>Cantora</td>
+            </tr>
+            <tr>
+                <td rowspan="3">Masculino</td>
+                <td>Juan</td>
+                <td>29</td>
+                <td>porteiro</td>
+            </tr>
+            <tr>
+                <td>João</td>
+                <td>18</td>
+                <td>Programador</td>
+            </tr>
+            <tr>
+                <td>Juliano</td>
+                <td>23</td>
+                <td>Nutricionista</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
