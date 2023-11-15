@@ -13,31 +13,33 @@
 <body>
     <h1>Preencha os dados a baixo</h1>
     <form action="form.php" autocomplete="on">
-       <p>
-        <label for="nome">Aluno:</label>
-        <input type="text" name="nome" id="nome" required placeholder="Nome completo" autocomplete="name">
-       </p>
-       <p>
-        <label for="cpf">CPF:</label>
-        <input type="number" name="cpf" id="cpf" placeholder="000-000-000-00"
-        required>
-       </p>
-       <p>
-        <label for="idade">Idade:</label>
-        <input type="date" name="idade" id="idade">
-       </p>
-       <p>
-        <label for="ano">Ano letivo</label>
-        <input type="month" name="ano" id="ano" value="2000-01">
-       </p>
-       <p>
-        <label for="media">Média:</label>
-        <input type="number" name="media" id="media" placeholder="0 a 10" min="0" max="10" value="0" step="0.1">
-       </p>
-       <p>
-        <input type="submit" value="Enviar">
-        <input type="reset" value="Limpar">
-       </p>
-    </form>
-</body>
-</html>
+      <fieldset>
+        <legend>formulário</legend>
+          <p>
+           <label for="nome">Aluno:</label>
+           <input type="text" name="nome" id="nome" required placeholder="Nome completo" autocomplete="name">
+          </p>
+          <p>
+           <label for="cpf">CPF:</label>
+           <input type="number" name="cpf" id="cpf" placeholder="000-000-000-00"
+           required>
+          </p>
+          <p>
+           <label for="idade">Idade:</label>
+           <input type="date" name="idade" id="idade">
+          </p>
+          <p>
+           <label for="ano">Ano letivo</label>
+           <input type="month" name="ano" id="ano" value="2000-01">
+          </p>
+          <p>
+           <label for="media">Média:</label>
+           <input type="number" name="media" id="media" placeholder="0 a 10" min="0" max="10" value="0" step="0.1">
+          </p>
+          <p>
+           <input type="submit" value="Enviar">
+           <input type="reset" value="Limpar">
+          </p>
+      </fieldset>
+    </body>
+    </html>

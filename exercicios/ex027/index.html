@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>...</title>
+	<style>
+		form {
+			width: 500px;
+		}
+	</style>
+</head>
+<body>
+	<form action="">
+		<fieldset>
+			<legend>Sexo</legend>
+			<input type="radio" name="sexo" id="masc" checked> <label for="masc">Masculino</label>
+			<input type="radio" name="sexo" id="fem"> <label for="fem">Feminino</label>
+		</fieldset>
+		<fieldset>
+			<legend>Jogos favoritos</legend>
+			<input type="checkbox" name="fut" id="fut" checked> <label for="fut">Futebol</label> <br>
+			<input type="checkbox" name="bas" id="bas"> <label for="bas">Basquete</label> <br>
+			<input type="checkbox" name="vol" id="vol"> <label for="vol">Vôlei</label> <br>
+			<input type="checkbox" name="ten" id="ten"> <label for="ten">Tênis</label>
+		</fieldset>
+		<p>
+			<label for="cor">Cor:</label>
+			<input type="color" name="cor" id="cor" value="#ff00ff">
+		</p>
+		<p>
+			<label for="ava">Avaliação:</label>
+			<input type="range" name="ava" id="ava" min="1" max="5">
+		</p>
+		<label for="img">Selecione uma foto</label>
+		<input type="file" name="img" id="img">
+	</form>
+</body>
+</html>
