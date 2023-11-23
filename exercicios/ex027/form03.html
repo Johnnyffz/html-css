@@ -1,29 +1,67 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>...</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(49, 124, 223);
+            color: white;
+        }
+        fieldset {
+            max-width: 850px;
+            border: solid white;
+        }
+        #resultado::after {content: ' anos';}
+    </style>
 </head>
 <body>
     <h1>Exemplo de formulário</h1>
     <form action="">
-        <p>
-            <label for="num1">Número 1</label>
-            <input type="number" name="num1" id="num1" min="0" max="50" step="0.1" required oninput="som.innerHTML = Number (num1.value) + Number(num2.value)">
-        </p>
-        <p>
-            <label for="num2">Número 2</label>
-            <input type="number" name="num2" id="num2" min="0" max="50" step="0.1" required oninput="som.innerHTML = Number(num1.value) + Number(num2.value)">
-        </p>
-        <p>
-            <label for="som">Soma:</label>
-            <output name="som" id="som">0</output>
-        </p>
-        <p>
-            <input type="submit" value="Enviar">
-            <input type="reset" value="Limpar">
-        </p>
+        <fieldset>
+            <legend>Soma numérica</legend>
+            <p>
+                <label for="num1">Número 1:</label>
+                <input type="number" name="num1" id="num1" min="0" max="50" required value="0" step="1" oninput="soma.innerHTML = Number(num1.value) + Number(num2.value)">
+            </p>
+            <p>
+                <label for="num2">Número 2:</label>
+                <input type="number" name="num2" id="num2" min="0" max="50" value="0" oninput="soma.innerHTML = Number(num1.value) + Number(num2.value)">
+            </p>
+            <p>
+                <label for="soma">Soma:</label>
+                <output id="soma">0</output>
+            </p>
+            <p>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpar">
+            </p>
+        </fieldset>
+    </form>
+    <h2>Exemplo 2</h2>
+    <form action="">
+        <fieldset>
+            <legend>Data de nascimento</legend>
+            <p>
+                <label for="name">Nome:</label>
+                <input type="text" name="name" id="name" placeholder="Informe o nome completo" required>
+            </p>
+            <p>
+                <label for="idade">Ano em que nasceu: </label>
+                <input type="number" name="idade" id="idade" min="1900" max="2023" oninput="resultado.innerHTML = Number(2023 - idade.value)">
+            </p>
+            <p>
+                <label for="resultado">Você tem: </label>
+                <output id="resultado">0</output>
+            </p>
+            <p>
+                <input type="submit" value="Enviar">
+                <input type="reset" 
+                value="Limpar">
+            </p>
+        </fieldset>
     </form>
 </body>
 </html>
