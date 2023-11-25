@@ -63,3 +63,15 @@ main p {
     margin-bottom: 15px;
     text-align: justify;
 }
+@media screen and (min-width: 768px) {
+.burguer {
+    display: none;
+}
+nav li {
+    display: inline-block;
+}
+nav ul {
+    text-align: left;
+    background-color: rgb(77, 77, 77);
+}
+}

@@ -17,7 +17,7 @@
         }
         </style>
 </head>
-<body>
+<body onresize="mudouTamanho()">
     <header>
         <h1>Menu Responsivo</h1>
         <i class="material-symbols-outlined , burguer" onclick="clickMenu()">
@@ -50,6 +50,14 @@
         </section>
     </main>
     <script>
+        function mudouTamanho() {
+            if(window.innerWidth >= 768) {
+                itens.style.display = 'block'
+            } else {
+                intens.style.display = 'none'
+            }
+        }
+
         function clickMenu() {
             if (itens.style.display == 'block') {
                 itens.style.display = 'none'
